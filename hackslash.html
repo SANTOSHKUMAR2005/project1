@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="hackslash.js"> -->
+    <script src="hackslash.js"></script>
+    <style>
+        body{
+            margin-top: 50px;
+            margin-left: 100px;
+           
+          
+        }
+       
+        .project{
+            display: flex;
+            
+            justify-content: space-between;
+        
+        }
+        @media(max-width:1000px){
+            .project{
+                display: flex;
+                flex-direction: column;
+            }
+            #subbox1{
+                display: flex;
+                flex-direction: column;
+            }
+        }
+        #subbox1{
+            display: flex;
+            flex-wrap: wrap;
+        }
+         .image{
+            margin-left: 50px;
+            margin-right: 70px;
+            height: 100%;
+            width: 600px;
+            /* flex-shrink: 50; */ 
+        }
+
+        #AI:hover {
+            animation:rotate 1s linear ;
+            /* transform:rotatey(180deg); */
+        }
+        @keyframes rotate{
+            from{
+                transform: rotateY(0deg);
+            }
+            to{
+                transform: rotateY(180deg);
+            }
+        }
+        .image2{
+            margin-left: 80px;
+            margin-right: 70px;
+            height: 100%;
+            width: 600px;
+          
+         
+        }
+        .image3{
+            margin-left: 80px;
+            margin-right: 70px;
+            height: 100%;
+            width: 600px;   
+        }
+        .image4{
+            margin-left: 80px;
+            margin-right: 70px;
+            height: 100%;
+            width: 600px;  
+        }
+        #main:hover{
+            transform: scale(1.1);
+
+        }
+        
+       
+    </style>
+  
+</head>
+<body>
+ <div ><h3 style="font-size:30px ; ">Lets Collaborate</h3>
+   <div class="project" id="box1">
+        <div id="subbox1">
+         <div  id="main" style="font-size: 60px; font-weight: 2%; margin-bottom: 100px; flex-wrap: wrap;"> AI + RPA is what  we  do</div>
+         <div style=" flex-wrap: wrap; font-weight: 20px; margin-bottom: 50px;">Future-Proof your business. Drive efficiency, profitability and deliver on customer experience</div>
+     
+          <div><b style="font-size: 20px;">AI + RPA  Automation <img src="arrow.png" alt="" height="20px" width="70px"></b></div>
+        </div>
+    <DIV style="display: flex;">
+          <img id="AI" src="project im.1.jpg" alt="" class="image" >
+       </DIV>
+        </div>
+        <div class="project" id="box2">
+            <div id="subbox1">
+             <div id="main" style="font-size: 65px; font-weight: 2%; margin-bottom: 100px; flex-wrap: wrap; margin-top: 50px;">Make Bolder Choices</div>
+           
+          
+             <div style=" flex-wrap: wrap; font-size: 20px; margin-bottom: 50px;">Digital focused strategies to realize market-changing ideas</div>
+         
+              <div><b style="font-size: 20px; text-indent: 500px;">Build Better Apps <img src="arrow.png" alt="" height="20px" width="70px"></b>     </div>
+            </div>
+        <DIV  >
+              <img id="AI" src="project im.2.png" alt="" class="image2">
+           </DIV>
+            </div>
+            <div class="project" id="box3">
+                <div id="subbox1">
+                 <div id="main" style="font-size: 65px; font-weight: 2%; margin-bottom: 100px; flex-wrap: wrap; margin-top: 50px;">Innovate With Speed</div>
+               
+              
+                 <div style=" flex-wrap: wrap; font-size: 20px; margin-bottom: 50px;">Create higher quality software, deliver on customer expectations and business goals</div>
+             
+                  <div><b style="font-size: 20px;" >DevOps <img src="arrow.png" alt="" height="20px" width="70px">
+
+                    </b>     </div>
+                </div>
+            <DIV >
+                  <img id="AI" src="project im.3.jpg" alt="" class="image3">
+               </DIV>
+                </div>
+                <div class="project" id="box4">
+                    <div id="subbox1">
+                     <div id="main" style="font-size: 60px; font-weight: 2%; margin-bottom: 100px; flex-wrap: wrap; margin-top: 50px;">Embrace Cloud</div>
+                      <div style=" flex-wrap: wrap; font-size: 20px; margin-bottom: 50px;">With Cloud-First accelerate innovation and optimize performance</div>
+                      <div><b style="font-size: 20px;">Cloud Services <img src="arrow.png" alt="" height="20px" width="70px"></b>     </div>
+                    </div>
+                <DIV style="display: flex;">
+                      <img id="AI" src="project im.4.jpg" alt="" class="image4">
+                   </DIV>
+                    </div>
+                    <button style="background-color: black; font-size: x-large; color: aliceblue; margin-top: 50px; height: 50px;" onclick="hackslash()">Toggle Neight Mode  </button>
+            </div> 
+            
+         
+</body>
+</html>
